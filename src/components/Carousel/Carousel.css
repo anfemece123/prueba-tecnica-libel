@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #161A25;
+}
+.wrapper {
+    height: 305px;
+    width: 80%;
+    margin: 0px auto;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    background: #161A25;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+} 
+
+.carousel-sections {
+  /* background: green; */
+  width:70%;
+}
+
+.carousel-2 .wrapper {
+  background-color: #000 !important;
+  flex-direction: row-reverse;
+}
+
+.carousel-2 .button-wrapper {
+  background-color: #000 !important;
+}
+.left:after {
+  content: "<";
+  color: #fff;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -6px;
+  font-size: 18px;
+}
+.right:after {
+  content: ">";
+  color: #fff;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -2px;
+  font-size: 18px;
+}
+
+.button-wrapper {
+  background-color:#161A25;
+  width: 30%;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  padding: 15px;
+  z-index: 1;
+  padding-top: 4%;
+}
+
+.buttons {
+  display: flex;
+  width:100%;
+  margin: 0px auto;
+  align-items: center;
+  color: #fff;
+  height: 100px;
+  /* border-bottom: 1px solid #efef; */
+  
+
+}
+.see-more {
+  text-decoration: none;
+  height: 30px;
+  width:70%;
+  border-top: 1px solid #fff;
+  padding-top: 10px;
+}
+.button-slider {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background:#161A25;
+  margin: 5px; 
+}
+.carousel {
+  margin: 25px;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  left: 0;
+  transition: all 1s ease;
+  /* background: red; */
+  /* display:flex;
+  justify-content: space-between; */
+}
+
+.card {
+  /* background: #C4C6C8; */
+  width: 100px;
+  height: 200px;
+  margin-right: 1rem;
+  display: inline-block;
+  min-width:123px;
+
+}
+
+.image-card {
+  background: #C4C6C8;
+  height:170px;
+  margin-bottom: 4px;
+}
+
+.card h3 {
+  color: #C4C6C8;
+  font-size: 13px;
+  font-weight:200;
+}
+
+.card h4 {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.carousel-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: auto;
+
+}
+
+.carousel-categories {
+  width: 100%;
+  padding: 10px;
+}
+.carousel-categories ul {
+  display: flex;
+  gap: 5px;
+  list-style: none;
+}
+
+.carousel-categories ul li {
+  font-size: 14px;
+  margin-right: 4px;
+}
+.active {
+  color: #25baee;
+}

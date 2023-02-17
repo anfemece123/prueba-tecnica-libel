@@ -1,0 +1,76 @@
+.cover-container {
+  height: 50vh;
+  width: 100%;
+  object-fit: contain;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+.video {
+  object-fit: cover;
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.cover-container h1 {
+  color: white;
+  font-size: 35px;
+  /* letter-spacing: -5px; */
+}
+.cover-container p {
+  margin-top: 16px;
+  color: #e5e7e9;
+  font-size: 13px;
+}
+.frase-container {
+  margin: 15%;
+}
+/*buttons*/
+.button {
+  /* margin-top: 5px; */
+  background-color: #25baee; /* Green */
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.button2 {
+  background-color: transparent;
+  color: white;
+  border: 2px solid #e7e7e7;
+  margin-left: 15px;
+}
+/*button play*/
+.button-play {
+  margin-top: 15%;
+  margin-left: 6%;
+}
+.round-button {
+  box-sizing: border-box;
+  display: block;
+  width: 130px;
+  height: 130px;
+  padding-top: 33px;
+  padding-left: 8px;
+  /* line-height: 20px; */
+  border: 2px solid #fff;
+  border-radius: 50%;
+  color: #258cb5;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
